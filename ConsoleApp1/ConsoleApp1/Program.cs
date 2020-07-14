@@ -6,9 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double height = 1.7; 
+            double weight = 45; 
+            double bmi;
+            bmi = weight / (height * height);
+            Console.WriteLine("BMIは" + bmi + "です。");
 
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
